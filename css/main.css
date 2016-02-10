@@ -1,15 +1,52 @@
 html {
 	box-sizing: border-box;
-  background-color: #e2e2e2;
+  background-color: #dbd6d0;
 }
 
 body {
-  font-family: 'Bevan', cursive;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 h1 {
   text-align: center;
   color: #fff;
+  font-family: 'Bevan', cursive;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  color: #fff;
+}
+
+.info-boxes {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.info-boxes body{
+  display: block;
+  margin: 1 1 1 1;
+  padding: 1em;
+  background-color: color: #79766f;
+  border-color: #5a5750;
+}
+
+.info-boxes li {
+  display: inline;
+  margin: 1 1 1 1;
+  padding: 1em;
+  background-color: #733737;
+  max-width: 20em;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.info-boxes li:hover {
+  background-color: #ff332a;
 }
 
 *, *::before, *::after {
