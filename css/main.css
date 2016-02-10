@@ -27,17 +27,17 @@ li {
   text-align: center;
 }
 
-.info-boxes body{
+header {
   display: block;
-  margin: 1 1 1 1;
-  padding: 1em;
-  background-color: color: #79766f;
-  border-color: #5a5750;
+  margin: 1;
+  padding: 2em;
+  background-color: #79766f;
+  border: 3px solid #5a5750;
 }
 
 .info-boxes li {
-  display: inline;
-  margin: 1 1 1 1;
+  display: inline-block;
+  margin: .1em;
   padding: 1em;
   background-color: #733737;
   max-width: 20em;
